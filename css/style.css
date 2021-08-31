@@ -127,3 +127,36 @@ body{
 .footer-social-icon:hover{
     color: #000;
 }
+
+/* subscribe section */
+.subscribe{
+    margin: 32px;
+    background-color: #4C665B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 50px;
+}
+.subscribe-header{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.subscribe-input{
+    height: 50px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.subscribe-mail{
+    width: 240px;
+}
+.subscribe-btn{
+    width: 170px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #ebefee;
+    border: none;
+    cursor: pointer;
+}
